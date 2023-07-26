@@ -20,7 +20,7 @@ public class SkinCare extends BaseClass{
 	public void skincare() throws InterruptedException
 	{
 		Thread.sleep(1000);
-		//dr.findElement(view).click();
+		
 		dr.findElement(pdt).click();
 		dr.findElement(view).click();
 		dr.findElement(addcrt).click();
